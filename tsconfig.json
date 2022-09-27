@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "ES2020",
+    "lib": ["dom", "dom.iterable", "es2015.promise", "esnext"],
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "inlineSources": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "sourceRoot": "./",
+    "baseUrl": "./",
+    "declaration": true,
+    "outDir": "es",
+    "paths": {
+      "@/*": ["./src/*"],
+    }
+  },
+  "typeRoots": ["./node_modules/@types", "./types"],
+  "exclude": [],
+  "include": [
+    "src",
+    "libs",
+    "./types",
+  ]
+}
